@@ -56,7 +56,7 @@ The same logic can be applied to the negative examples as well.
 
 Below is visualized instance of your training set.
 
-![Fig1](Figures/Thumb.png "Figure1")
+![Fig.1.1](Figures/p1.png "Figure 1.1") ![Fig.1.2](Figures/p2.png "Figure 1.2") 
 
 (Figure 1.1 shows an instance where there is a path from start to goal. Figure 1.2 shows an
 instance where a path from start to goal does not exist. The red circle denotes where you
