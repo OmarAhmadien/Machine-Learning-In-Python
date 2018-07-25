@@ -61,7 +61,7 @@ values for these features are [f1=2, f2=4, f3=5, f4=3]. You will write your code
 these features in the function _feature_set_1._ Your function should return a list of these
 features in the order f1, f2, f3, f4 (See the skeleton function _feature_set_1_ for more details).
 
-![Fig.2.1](Figures\f1.png)
+![Fig.2.1](Figures/f1.png)
 *Figure 2.1 Distances between the agent and the dark blue squares in the four major
 directions around it (f1=2, f2=4, f3=5, f4=3).*
 
@@ -75,7 +75,7 @@ NW. Therefore the values for these features in Figure 2.3 are [f5=0, f6=1, f7=2,
 should be returned as a list. You should write your code for this section in the function
 _feature_set_2.
 
-![Fig.2.2](Figures\f2.png)
+![Fig.2.2](Figures/f2.png)
 *Figure 2.2 Total number of light blue squares surrounding the agent. Here f5=0, f6=1, f7=2,
 and f8=2.*
 
@@ -86,7 +86,7 @@ the goal and x is the horizontal distance that you have to move to reach the goa
 2.4, y=4 and x=3. You should write your code for extracting this feature in the function
 _feature_set_3.
 
-![Fig.2.3](Figures\f3.png)
+![Fig.2.3](Figures/f3.png)
 *Figure 2.4 Euclidean distance of the agent from the green square. Here x=3, y=4 and
 therefore f9=5*
 
