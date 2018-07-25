@@ -28,7 +28,7 @@ image compression technique to compress the 120x128 pixel images into images of 
 the original images.
 
 **(a) Image Compression**
-
+---------------------
 For this section you will write a function which takes as input a matrix **A** of dimensions _m_ x _n_
 and returns a matrix **B** of dimensions _m_ /2 x _n_ /2 where **B** is calculated as follows:
 
@@ -51,7 +51,7 @@ You will write your code for finding the matrix **B** within the function _compr
 points**
 
 **(b) Training and Model Evaluation**
-
+---------------------
 You will now train a neural network for predicting the direction each subject is facing. Your
 neural network will have 960 units in the input layer, 30 units in the hidden layer and 4 units
 in the output layer, where each unit in the output layer denotes the direction the subject is
@@ -70,7 +70,7 @@ means you will also have to compress this test image to dimensions 30x32 before 
 to the network.
 
 **(c) Hyperparameter Optimization (Predicting direction faced)**
-
+---------------------
 For this section you will optimize the hyperparameters in your neural net and find the ones
 that give you the highest accuracy in the task of predicting the direction that the subject is
 facing. The only constraints here are that your network should have 960 units in the input
@@ -80,7 +80,7 @@ optimized network, it should return a string specifying the direction that the t
 facing (“up”, “straight”, “left”, “right”).
 
 **(d) Hyperparameter Optimization (Predicting emotion felt)**
-
+---------------------
 For this section you will optimize the hyperparameters in your neural net and find the ones
 that give you the highest accuracy in the task of predicting the emotion that the subject is
 feeling. The only constraints here are that your network should have 960 units in the input
@@ -91,7 +91,6 @@ feeling (“happy”, “sad”, “neutral”, “angry”).
 
 ```
 Note:
-
 Do not train your model in the _model_evaluation_ functions. This means that after training
 your network you should save your weights to a file. The _model_evaluation_ functions should
 just initialize your neural network, load the weights from the file and using those weights it
