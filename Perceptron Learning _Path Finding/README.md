@@ -56,11 +56,9 @@ The same logic can be applied to the negative examples as well.
 
 Below is visualized instance of your training set.
 
-![Fig.1.1, 50%](Figures/p1.png)
-
+![Fig.1.1 | 50%](Figures/p1.png)
 *Figure 1.1* 
-![Fig.1.2, 50%](Figures/p2.png)
-
+![Fig.1.2 | 50%](Figures/p2.png)
 *Figure 1.2*
 
 (Figure 1.1 shows an instance where there is a path from start to goal. Figure 1.2 shows an
@@ -97,7 +95,7 @@ Below is a scatter plot for our training set.
 
 ![Fig.2](Figures/Dataset.png "Figure 2")
 
-*Figure 2 Distribution of the features for every maze in the training set*
+*Figure 2 shows The distribution of the features for every maze in the training set*
 
 **(c) Perceptron Classifier - Training**
 
@@ -163,7 +161,7 @@ this boundary.
 
 ![Fig.3](Figures/DP_PerceptronClassifier.png "Figure 3")
 
-*Figure 3 Decision boundary learned using the averaged perceptron classifier.*
+*Figure 3 shows The decision boundary learned using the averaged perceptron classifier.*
 
 **(e) Model Evaluation**
 
