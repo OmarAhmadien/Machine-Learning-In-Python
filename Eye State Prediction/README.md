@@ -41,7 +41,7 @@ are used with various accuracies predictions.
 The data set consists of 14 EEG values and a value indicating the eye state. The following
 table illustrates and gives an insight on the dataset that we have:
 
-![Figure 2](Figures/fig2.png)
+![Figure 2](Figures/fig2.PNG)
 *Figure 2*
 
 This dataset is preprocessed and ready for classification. So, we _do not need any preprocessing
@@ -100,7 +100,7 @@ previous models. The used parameters are: n_estimators=1000,random_state=
 
 The accuracies for the above prediction models are collected in the following table:
 
-![Figure 4](Figures/Acc.png)
+![Figure 4](Figures/Acc.PNG)
 *Figure 4*
 
 
