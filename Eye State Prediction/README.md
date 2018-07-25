@@ -36,7 +36,7 @@ After obtaining the dataset from this device, signal processing techniques are a
 machine learning to predict the state of the human eye. Various machine learning algorithms
 are used with various accuracies predictions.
 
-**_Dataset:_**
+## _Dataset:_
 
 The data set consists of 14 EEG values and a value indicating the eye state. The following
 table illustrates and gives an insight on the dataset that we have:
@@ -68,7 +68,7 @@ feature samples. Then the data is fed to the various model predictions that are 
 > features are the signals from the 14 electrodes: 'AF3','F7','F3','FC5','T7','P7','O1','O2','P8','T8','FC6','F4','F8','AF4'
 
 
-**_Prediction Models:_**
+## _Prediction Models:_
 
 So many algorithms are used in machine learning as a prediction models. To pick a good
 model that fits your data is not an easy task. In this project, we have tried different models, and
@@ -96,7 +96,7 @@ The fourth model that we used is Random Forests, which gave the higher accuracy 
 previous models. The used parameters are: n_estimators=1000,random_state=
 
 
-**_Accuracies:_**
+## _Accuracies:_
 
 The accuracies for the above prediction models are collected in the following table:
 
@@ -107,7 +107,7 @@ The accuracies for the above prediction models are collected in the following ta
 As shown in the table, SVM has the lowest accuracy, while Random Forests has the higher
 accuracy.
 
-**_Comparison:_**
+## _Comparison:_
 
 To compare my model with other proposed models in literature that used the same dataset, I
 have searched in literature for a paper until I’ve found a paper that used the same data. This
@@ -119,8 +119,7 @@ scored almost the same accuracy as them. As seen in figure 5 (from the paper):
 *Figure 5*
 
 
-
-**_Conclusion and Results:_**
+## _Conclusion and Results:_
 
 Accordin the random forests, the future importances are represented in the following figure 6:
 
@@ -130,7 +129,7 @@ Accordin the random forests, the future importances are represented in the follo
 In conclusion, our model fits the data as the literature paper. We got the same accuracy with
 random forests,
 
-**_Future Discussion:_**
+## _Future Discussion:_
 
 In the future, we may record more signals from more electrodes that those 14 electrodes. We
 can also try to you deep network or deep learning techniques. Also we can reprocess the
