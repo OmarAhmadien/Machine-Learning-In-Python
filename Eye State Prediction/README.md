@@ -93,7 +93,7 @@ several tries tuning the parameters.
   **_Random Forests_**
 
 The fourth model that we used is Random Forests, which gave the higher accuracy of all the
-previous models. The used parameters are: n_estimators=1000,random_state=
+previous models. The used parameters are: n_estimators=1000,random_state=0.
 
 
 ## _Accuracies:_
