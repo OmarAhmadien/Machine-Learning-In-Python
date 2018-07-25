@@ -1,0 +1,202 @@
+Part A)
+
+Training mini-batch number 0
+Epoch 0: validation accuracy 17.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 37.50%
+Epoch 1: validation accuracy 17.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 37.50%
+Epoch 2: validation accuracy 22.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 37.50%
+Training mini-batch number 100
+Epoch 3: validation accuracy 35.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 37.50%
+Epoch 4: validation accuracy 50.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 37.50%
+Epoch 5: validation accuracy 52.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 52.50%
+Training mini-batch number 200
+Epoch 6: validation accuracy 55.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 57.50%
+Epoch 7: validation accuracy 65.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 60.00%
+Epoch 8: validation accuracy 75.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 62.50%
+Training mini-batch number 300
+Epoch 9: validation accuracy 75.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 65.00%
+Epoch 10: validation accuracy 75.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 65.00%
+Epoch 11: validation accuracy 77.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Training mini-batch number 400
+Epoch 12: validation accuracy 80.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Epoch 13: validation accuracy 82.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 75.00%
+Epoch 14: validation accuracy 80.00%
+Epoch 15: validation accuracy 85.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 75.00%
+Training mini-batch number 500
+Epoch 16: validation accuracy 87.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 75.00%
+Epoch 17: validation accuracy 90.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 18: validation accuracy 90.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Training mini-batch number 600
+Epoch 19: validation accuracy 90.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 20: validation accuracy 92.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Epoch 21: validation accuracy 92.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Training mini-batch number 700
+Epoch 22: validation accuracy 95.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 75.00%
+Epoch 23: validation accuracy 95.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 75.00%
+Epoch 24: validation accuracy 95.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 75.00%
+Training mini-batch number 800
+Epoch 25: validation accuracy 97.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 75.00%
+Epoch 26: validation accuracy 97.50%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 75.00%
+Epoch 27: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 28: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 75.00%
+Training mini-batch number 900
+Epoch 29: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 30: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Epoch 31: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Training mini-batch number 1000
+Epoch 32: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Epoch 33: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Epoch 34: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Training mini-batch number 1100
+Epoch 35: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Epoch 36: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Epoch 37: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Training mini-batch number 1200
+Epoch 38: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Epoch 39: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Epoch 40: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Training mini-batch number 1300
+Epoch 41: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 70.00%
+Epoch 42: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 43: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 44: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Training mini-batch number 1400
+Epoch 45: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 46: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 47: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Training mini-batch number 1500
+Epoch 48: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 49: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 50: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Training mini-batch number 1600
+Epoch 51: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 52: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 53: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Training mini-batch number 1700
+Epoch 54: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 55: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 56: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 57: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Training mini-batch number 1800
+Epoch 58: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Epoch 59: validation accuracy 100.00%
+This is the best validation accuracy to date.
+The corresponding test accuracy is 72.50%
+Finished training network.
+Best validation accuracy of 100.00% obtained at iteration 1859
+Corresponding test accuracy of 72.50%
