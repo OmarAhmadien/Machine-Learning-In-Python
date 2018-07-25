@@ -59,7 +59,7 @@ The same logic can be applied to the negative examples as well.
 Below are two visualized instances of your training set.
 
 
-![Fig1](Perceptron Learning _Path Finding/Figures/Thumb.PNG)
+![Fig1](Perceptron Learning _Path Finding/Figures/Thumb.png)
 
 (Figure 1.1 shows an instance where there is a path from start to goal. Figure 1.2 shows an
 instance where a path from start to goal does not exist. The red circle denotes where you
