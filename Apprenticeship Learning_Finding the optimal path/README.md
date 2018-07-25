@@ -110,7 +110,7 @@ Therefore the dictionary you return should have a state (x, y) as its key, and t
 move from that state (0, 1, 2, or 3, where these numbers denote the following directions: 0 –
 North, 1 – East, 2 – South, 3 – West) as its value.
 
-# _(c) Build your own model
+# _(c) Build your own model_
 
 You may now disregard any assumptions that we made earlier on about what the agent
 knows about its environment. Make your own assumptions and extract features that would
@@ -137,7 +137,7 @@ sample_policy=dataset[0][1]
 move_on_grid(sample_grid, sample_policy)
 ```
 
-# _Files included in this assignment
+# _Files included in this assignment_
 
 *_feature_extraction.py_*-- script for extracting features from your model.
 
