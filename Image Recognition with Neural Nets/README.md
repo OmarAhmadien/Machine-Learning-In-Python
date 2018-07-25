@@ -7,8 +7,8 @@ consisting of 90 images.
 
 4 samples from the data set are shown in the following Figure 1:
 
-![Figure 1.1]()
-*Figure 1.1 shows 4 samples of the image dataset.*
+![Figure 1](sample1.png)
+*Figure 1 shows 4 samples of the image dataset.*
 
 In each image, the subject has the following characteristics:
 
