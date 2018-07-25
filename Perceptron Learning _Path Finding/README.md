@@ -56,9 +56,11 @@ The same logic can be applied to the negative examples as well.
 
 Below is visualized instance of your training set.
 
-![Fig.1.1](Figures/p1.png "Figure 1.1") 
+![Fig.1.1, 50%](Figures/p1.png)
+
 *Figure 1.1* 
-![Fig.1.2](Figures/p2.png "Figure 1.2")
+![Fig.1.2, 50%](Figures/p2.png)
+
 *Figure 1.2*
 
 (Figure 1.1 shows an instance where there is a path from start to goal. Figure 1.2 shows an
@@ -94,6 +96,7 @@ the function _visualise_features_ we should be able to see a plot similar to Fig
 Below is a scatter plot for our training set.
 
 ![Fig.2](Figures/Dataset.png "Figure 2")
+
 *Figure 2 Distribution of the features for every maze in the training set*
 
 **(c) Perceptron Classifier - Training**
@@ -138,13 +141,7 @@ W 3 = W 2 + ∆ 3 = ∆ 1 + ∆ 2 + ∆ 3
 ```
 Wavg = ( W 1 + W 2 + W 3 )/3 = (3/3) ∆ 1 + (2/3) ∆ 2 + (1/3) ∆ 3
 ```
-## Here ∆j is defined as <img src="https://latex.codecogs.com/png.latex?\eta&space;*(y^{(i)}-\overline{y}^{(i)})X_j^{(i)}" title="\eta *(y^{(i)}-\overline{y}^{(i)})X_j^{(i)}" /> (the perceptron update rule from your book) where
-
-## y(i) is the actual label of the ith training example, ӯ(i) is the predicted label of the ith training
-
-## example and xj(i) is the jth feature of the ith training example. W 1 corresponds to the weight
-
-learned after the first iteration of the first training example, _W 2_ corresponds to the weight
+> Here ∆j is defined as <img src="https://latex.codecogs.com/png.latex?\eta&space;*(y^{(i)}-\overline{y}^{(i)})X_j^{(i)}" title="\eta *(y^{(i)}-\overline{y}^{(i)})X_j^{(i)}" /> (the perceptron update rule from your book) where y(i) is the actual label of the ith training example, ӯ(i) is the predicted label of the ith training example and xj(i) is the jth feature of the ith training example. W 1 corresponds to the weight learned after the first iteration of the first training example, _W 2_ corresponds to the weight
 learned after the first iteration of the second training example, and so forth. Modify the
 perceptron algorithm and implement the averaged perceptron classifier using the weight
 update rule above. Make sure to shuffle the training samples at every iteration.
@@ -155,7 +152,7 @@ averaged weights learned by your perceptron classifier and these weights should 
 same format as _self.w__ in _perceptron_classifier.py_. Also make sure to save your weights
 before returning them (you may write them to a text file), as you will need them later on.
 
-**(d) Visualising the decision boundary – 15 points**
+**(d) Visualising the decision boundary**
 
 Now using the weights that you learned, you will plot a decision boundary on your dataset,
 and generate a plot like the one shown in Figure 1.4 (The colouring scheme is not necessary,
@@ -164,18 +161,15 @@ should write the code for generating this plot in the same script and within the
 _visualise_decision_boundary_. You can load the weights you had saved earlier on for plotting
 this boundary.
 
+![Fig.3](Figures/DP_PerceptronClassifier.png "Figure 3")
 
-**Figure 1.4 Decision boundary learned using the averaged perceptron classifier.**
+*Figure 3 Decision boundary learned using the averaged perceptron classifier.*
 
-**(e) Model Evaluation – 15 points**
+**(e) Model Evaluation**
 
 Your task is to compute the accuracy of your model on the training and test set we gave you
 and return an accuracy score. You should write your code in the function
 _evaluate_training_and_test_set_. You should return a tuple as follows:
 
 return (accuracy_on_training_set, accuracy_on_test_set)
-
-Prepare and upload one zip file which you will name as _<your first name>_<your last name>_
-assignment1._ This zip file should contain all of the materials used in this assignment.
-
 
