@@ -50,11 +50,11 @@ dataset[i][1] # this is the optimal policy for the ith training example
 The goal of this assignment is to model an agent that can (at any state) make an optimal
 decision about which direction to move in.
 
-**(a) Feature extraction**
+# _(a) Feature extraction_
 
 Your first task is to extract a set of features from any given grid.
 
-**(i)** Assume the agent has sensors that allow it to detect how far it is from the dark blue
+**_(i)_** Assume the agent has sensors that allow it to detect how far it is from the dark blue
 squares as shown in Figure 2.2. The first set of features you will extract are the distances
 from the agent’s location to the dark blue squares. In this figure you will notice that the
 values for these features are [f1=2, f2=4, f3=5, f4=3]. You will write your code for extracting
@@ -65,7 +65,7 @@ features in the order f1, f2, f3, f4 (See the skeleton function _feature_set_1_ 
 *Figure 2.1 Distances between the agent and the dark blue squares in the four major
 directions around it (f1=2, f2=4, f3=5, f4=3).*
 
-**(ii)** Assume the agent also has sensors that allow it to detect the number of light blue squares
+**_(ii)_** Assume the agent also has sensors that allow it to detect the number of light blue squares
 that are in the four major directions around it as shown in Figure 2.3. You will extract these
 second set of features by taking f5 to be the total number of light blue squares in the
 directions NW, N and NE from the agent, f6 as the total number of light blue squares in the
@@ -90,7 +90,7 @@ _feature_set_3.
 *Figure 2.4 Euclidean distance of the agent from the green square. Here x=3, y=4 and
 therefore f9=5*
 
-**(b) Learning and Policy checking**
+# _(b) Learning and Policy checking_
 
 Your next step is to train your model using the features that you defined in the previous part
 (therefore your model will have 9 features). You will use _scikit-learn_ to train your model.
@@ -110,7 +110,7 @@ Therefore the dictionary you return should have a state (x, y) as its key, and t
 move from that state (0, 1, 2, or 3, where these numbers denote the following directions: 0 –
 North, 1 – East, 2 – South, 3 – West) as its value.
 
-**(c) Build your own model**
+# _(c) Build your own model
 
 You may now disregard any assumptions that we made earlier on about what the agent
 knows about its environment. Make your own assumptions and extract features that would
@@ -137,7 +137,7 @@ sample_policy=dataset[0][1]
 move_on_grid(sample_grid, sample_policy)
 ```
 
-**Files included in this assignment**
+# _Files included in this assignment
 
 *_feature_extraction.py_*-- script for extracting features from your model.
 
