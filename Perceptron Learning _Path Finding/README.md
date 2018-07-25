@@ -66,7 +66,7 @@ instance where a path from start to goal does not exist. The red circle denotes 
 are in the maze.)
 
 **(a) Feature Extraction**
-
+---------------------
 Your first task is to extract two features from the given dataset. You have been provided
 with the python script _feature_extraction.py_ and within this script you have two skeleton
 functions defined for you.
@@ -85,7 +85,7 @@ values, i.e., 1+1+2+1+2+4+2+2 = 15.
 
 **(b) Visualising Features**
 
-
+---------------------
 After writing your functions for extracting features, you will now visualize your training set
 using those features. This means you should extract these features from every training
 example. You should write your code in in the script _training_phase.py._ If we make a call to
@@ -98,7 +98,7 @@ Below is a scatter plot for our training set.
 *Figure 2 shows The distribution of the features for every maze in the training set*
 
 **(c) Perceptron Classifier - Training**
-
+---------------------
 As you can see from Figure 1.3, the data is not linearly separable. Hence, simply using the
 vanilla perceptron algorithm to classify this data will lead to unpredictable behaviour (Try
 it!). This is due to the fact that the perceptron returns the most recent version of the weight
@@ -151,7 +151,7 @@ same format as _self.w__ in _perceptron_classifier.py_. Also make sure to save y
 before returning them (you may write them to a text file), as you will need them later on.
 
 **(d) Visualising the decision boundary**
-
+---------------------
 Now using the weights that you learned, you will plot a decision boundary on your dataset,
 and generate a plot like the one shown in Figure 1.4 (The colouring scheme is not necessary,
 we should just be able to distinguish the positive examples from the negative ones). You
@@ -164,10 +164,10 @@ this boundary.
 *Figure 3 shows The decision boundary learned using the averaged perceptron classifier.*
 
 **(e) Model Evaluation**
-
+---------------------
 Your task is to compute the accuracy of your model on the training and test set we gave you
 and return an accuracy score. You should write your code in the function
 _evaluate_training_and_test_set_. You should return a tuple as follows:
-
+``` python
 return (accuracy_on_training_set, accuracy_on_test_set)
-
+```
