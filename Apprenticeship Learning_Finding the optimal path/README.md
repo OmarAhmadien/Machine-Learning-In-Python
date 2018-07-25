@@ -54,7 +54,7 @@ decision about which direction to move in.
 
 Your first task is to extract a set of features from any given grid.
 
-**_(i)_** Assume the agent has sensors that allow it to detect how far it is from the dark blue
+**(i)** Assume the agent has sensors that allow it to detect how far it is from the dark blue
 squares as shown in Figure 2.2. The first set of features you will extract are the distances
 from the agent’s location to the dark blue squares. In this figure you will notice that the
 values for these features are [f1=2, f2=4, f3=5, f4=3]. You will write your code for extracting
@@ -65,7 +65,7 @@ features in the order f1, f2, f3, f4 (See the skeleton function _feature_set_1_ 
 *Figure 2.1 Distances between the agent and the dark blue squares in the four major
 directions around it (f1=2, f2=4, f3=5, f4=3).*
 
-**_(ii)_** Assume the agent also has sensors that allow it to detect the number of light blue squares
+**(ii)** Assume the agent also has sensors that allow it to detect the number of light blue squares
 that are in the four major directions around it as shown in Figure 2.3. You will extract these
 second set of features by taking f5 to be the total number of light blue squares in the
 directions NW, N and NE from the agent, f6 as the total number of light blue squares in the
