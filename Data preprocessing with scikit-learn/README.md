@@ -20,7 +20,7 @@ Your first task is to generate a data frame from the dataset we provided you usi
 pandas module. Your data frame should be similar to the one shown in Figure 3.1 below,
 where missing values are represented by NaN.
 
-![Fig.1](Python_ML/Data preprocessing with scikit-learn/Figures/siLearn.png)
+![Fig.1](Figures/siLearn.png)
 *Figure 1 shows data Frame illustrating some instances from our dataset*
 
 You should return the number of missing values for every feature "as a python list". For
