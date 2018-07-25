@@ -31,7 +31,7 @@ We will be using the convolutional neural model described here
 network 3 .py code before starting your assignment.
 
 **(a) Training and Model Evaluation – Direction Faced**
-
+---------------------
 Your first task is to design a convolutional neural network (CNN) in the task of predicting the
 direction a given subject is facing. Your CNN should have a local receptive field of size 5 x 5,
 one input feature map and 20 filters. In addition to that, your CNN should also have a
@@ -45,7 +45,7 @@ test set. Do this using the ReLU activation function and the sigmoid activation 
 Which one performs better? Comment.
 
 **(b) Training and Model Evaluation – Emotion Felt**
-
+---------------------
 Your next task is to design a convolutional neural network (CNN) in the task of predicting the
 emotion a given subject is feeling. Your CNN should have a local receptive field of size 5 x 5,
 one input feature map and 20 filters. In addition to that, your CNN should also have a
@@ -60,7 +60,7 @@ test image of dimensions 30 x 32 and using your network, it should return a stri
 the emotion that the test subject is feeling (“happy”, “sad”, “neutral”, “angry”).
 
 **(c) Convolutional Neural Net Optimization**
-
+---------------------
 For this section you are free to use any CNN architecture that would give you the highest
 possible accuracy in predicting the emotion that a subject is feeling. You may use multiple
 convolutional, pooling and fully connected layers. You should also optimize the
