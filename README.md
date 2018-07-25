@@ -11,7 +11,7 @@ These are interm projects/assignments solved by me with ML algorithms using Pyth
 
 ## Project3: [Data Preprocessing With Scikit-learn and Pandas.](https://github.com/OmarAhmadien/Python_ML/tree/master/Data%20preprocessing%20with%20scikit-learn)
 
-## Overview: One of the keys that determine how well a machine learning algorithm can learn is the quality of data and the amount of useful information it contains. In this project we will explore various data preprocessing techniques that will be useful in building good machine learning models.
+> Overview: One of the keys that determine how well a machine learning algorithm can learn is the quality of data and the amount of useful information it contains. In this project we will explore various data preprocessing techniques that will be useful in building good machine learning models.
 
 ## Project4: [Image Recognition With NN](https://github.com/OmarAhmadien/Python_ML/tree/master/Image%20Recognition%20with%20Neural%20Nets)
 
