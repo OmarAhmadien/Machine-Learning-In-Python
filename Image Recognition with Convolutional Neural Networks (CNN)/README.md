@@ -1,6 +1,4 @@
-# Machine Learning Assignment 5 - Image Recognition with Convolutional
-
-# Neural Networks (CNN)
+# Image Recognition with Convolutional Neural Networks (CNN)
 
 In this assignment you are going to use convolutional neural networks to perform some
 basic image recognition tasks. The image dataset we have provided you contains images (in
