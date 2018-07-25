@@ -67,8 +67,8 @@ df_b should only reflect the changes in your data frame after the tasks in secti
 been completed, and it should not be modified after the tasks in sections **(c)** and **(d)** have
 been completed. The variable df_c should reflect the changes after the tasks in sections **(b)**
 and **(c)** have been completed and finally the variable df_d should reflect the changes after
-the tasks in sections **(b)**, **(c)** and **(d)** have been completed.```
-
+the tasks in sections **(b)**, **(c)** and **(d)** have been completed.
+```
 **(e)** The label ‘ _symboling_ ’ from our dataset represents the insurance risk rating for every
 automobile where +3 indicates that the car is very risky and -3 indicates that it is pretty safe.
 We will use this label as the class label we wish to predict. Using the method _train_test_split_
@@ -76,7 +76,7 @@ from _scikit-learn_ , partition the dataset into a training and a test set, with
 _random_state_ = 0 and _test_size_ = 0.3. After that, train a decision tree classifier with
 maximum depth of 20, random_state of 0 and ‘entropy’ as the measure for information gain.
 Find the accuracy on the training and the test set and save them to the varibles
-training_accuracy and test_accuracy. – **10 points**
+training_accuracy and test_accuracy.
 
 **(f)** For this section you will build a random forest with the goal of assessing feature
 importance. Train a random forest classifier with the parameters _n_estimators_ = 10,
