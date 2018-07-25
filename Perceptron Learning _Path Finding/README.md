@@ -56,7 +56,10 @@ The same logic can be applied to the negative examples as well.
 
 Below is visualized instance of your training set.
 
-![Fig.1.1](Figures/p1.png "Figure 1.1") ![Fig.1.2](Figures/p2.png "Figure 1.2") 
+![Fig.1.1](Figures/p1.png "Figure 1.1") 
+*Figure 1.1* 
+![Fig.1.2](Figures/p2.png "Figure 1.2")
+*Figure 1.2*
 
 (Figure 1.1 shows an instance where there is a path from start to goal. Figure 1.2 shows an
 instance where a path from start to goal does not exist. The red circle denotes where you
@@ -80,7 +83,7 @@ squares in the first row (from the top) is 1, in the second row 1, in the third 
 sixth row 4 , etc. The value of this feature for this example is therefore the sum of these
 values, i.e., 1+1+2+1+2+4+2+2 = 15.
 
-**(b) Visualising Features – 15 points**
+**(b) Visualising Features**
 
 
 After writing your functions for extracting features, you will now visualize your training set
@@ -90,9 +93,10 @@ the function _visualise_features_ we should be able to see a plot similar to Fig
 
 Below is a scatter plot for our training set.
 
-**Figure 1.3 Distribution of the features for every maze in the training set**
+![Fig.2](Figures/Dataset.png "Figure 2")
+*Figure 2 Distribution of the features for every maze in the training set*
 
-**(c) Perceptron Classifier - Training – 3 0 points**
+**(c) Perceptron Classifier - Training**
 
 As you can see from Figure 1.3, the data is not linearly separable. Hence, simply using the
 vanilla perceptron algorithm to classify this data will lead to unpredictable behaviour (Try
@@ -109,12 +113,7 @@ iterations. We can view each version of the weight vector as a separate classifi
 have _mn_ classifiers. The most intuitive way of implementing this algorithm would be to store
 each weight vector _Wi_ and average them to get our averaged weight vector Wavg as follows:
 
-```
-푊푎푣푔=
-```
-### (푊 0 + 푊 1 + ...+ 푊푚푛)
-
-### 푚푛
+<img src="https://latex.codecogs.com/png.latex?W_{avg}&space;=&space;\frac{(W_0&space;&plus;&space;W_1&space;&plus;&space;...&space;&plus;&space;W_{mn})}{mn}" title="W_{avg} = \frac{(W_0 + W_1 + ... + W_{mn})}{mn}" />
 
 
 However, this approach is too impractical because it requires storing _mn_ weight vectors
@@ -139,7 +138,7 @@ W 3 = W 2 + ∆ 3 = ∆ 1 + ∆ 2 + ∆ 3
 ```
 Wavg = ( W 1 + W 2 + W 3 )/3 = (3/3) ∆ 1 + (2/3) ∆ 2 + (1/3) ∆ 3
 ```
-## Here ∆j is defined as η*(y(i) – ӯ(i))xj(i) (the perceptron update rule from your book) where
+## Here ∆j is defined as <img src="https://latex.codecogs.com/png.latex?\eta&space;*(y^{(i)}-\overline{y}^{(i)})X_j^{(i)}" title="\eta *(y^{(i)}-\overline{y}^{(i)})X_j^{(i)}" /> (the perceptron update rule from your book) where
 
 ## y(i) is the actual label of the ith training example, ӯ(i) is the predicted label of the ith training
 
