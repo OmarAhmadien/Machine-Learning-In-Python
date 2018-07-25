@@ -23,4 +23,5 @@ These are interm projects/assignments solved by me with ML algorithms using Pyth
 
 ## Project6: [Eye State Prediction](https://github.com/OmarAhmadien/Python_ML/tree/master/Eye%20State%20Prediction)
 
-> Overview: Aimed to detect the eye state of humans extracted from EEG dataset using Machine Learning techniques such as (SVM, NN, Random Forests).
+> Overview: Aimed to detect the eye state of humans extracted from EEG dataset using Machine Learning techniques such as (SVM, NN, Decision Trees, and Random Forests). Implemented Machine Learning algorithms for prediction using Sikit-Learn and Pandas in
+Python.
