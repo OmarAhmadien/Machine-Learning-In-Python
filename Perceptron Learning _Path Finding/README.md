@@ -34,32 +34,29 @@ provided below.)
 
 The setup for this problem is as follows:
 
-```
-- Your training set has 300 mazes in total
-- Each training example is a 2 dimensional array where the green squares are
+* Your training set has 300 mazes in total
+* Each training example is a 2 dimensional array where the green squares are
 represented as zeros and the black squares are represented as ones (see the figures
 below). For instance, the first three rows of the maze in Figure 1.1 are represented by
 the following array, [ [0,0,0,1,0,1,0,0], [0,1,0,0,0,1,0,0], [0,0,1,1,0,0,1,1], ...]
-- Your training set consists of two dictionaries (one for the positive examples and the
+* Your training set consists of two dictionaries (one for the positive examples and the
 other for the negative examples) that have these 2 dimensional arrays as their
 values.
-```
 
 In order to open the files which are stored in pickle format, you will use the pickle module as
 follows:
-
+```python
 import cPickle as pickle
 
 train_positives = pickle.load(open('training_set_positives.p', 'rb'))
-
-> train_positives is a dictionary with the training examples that have a path
+#train_positives is a dictionary with the training examples that have a path
+```
 
 The same logic can be applied to the negative examples as well.
 
-Below are two visualized instances of your training set.
+Below is visualized instance of your training set.
 
-
-![Fig1](Figures/Thumb.png)
+![Fig1](Figures/Thumb.png "Figure1")
 
 (Figure 1.1 shows an instance where there is a path from start to goal. Figure 1.2 shows an
 instance where a path from start to goal does not exist. The red circle denotes where you
