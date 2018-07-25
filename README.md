@@ -19,7 +19,7 @@ These are interm projects/assignments solved by me with ML algorithms using Pyth
 
 ## Project5: [Image Recognition With CNN](https://github.com/OmarAhmadien/Python_ML/tree/master/Image%20Recognition%20with%20Convolutional%20Neural%20Networks%20(CNN))
 
-## Overview: In this project you are going to use convolutional neural networks to perform some basic image recognition tasks. The image dataset we have provided you contains images (in jpeg format) of dimensions 120x128, with the training set consisting of 315 images, a validation set consisting of 45 images and a test set consisting of 45 images.
+> Overview: In this project you are going to use convolutional neural networks to perform some basic image recognition tasks. The image dataset we have provided you contains images (in jpeg format) of dimensions 120x128, with the training set consisting of 315 images, a validation set consisting of 45 images and a test set consisting of 45 images.
 
 ## Project6: [Eye State Prediction](https://github.com/OmarAhmadien/Python_ML/tree/master/Eye%20State%20Prediction)
 
